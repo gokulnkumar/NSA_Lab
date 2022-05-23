@@ -1,0 +1,30 @@
+cat > myfile
+1001    RAM	97
+1002	NEHA	89
+1010	DIVYA	77
+1025	RAHUK	65
+1012	ARUN	99
+1013	NISHA	76
+
+
+head -n 2 myfile
+
+
+tail -n 2 myfile
+
+
+cat myfile > mycopyfile
+
+
+cat myfile | wc
+
+
+head -n 3 myfile | tail -n 1
+
+
+cat > appendfile
+This files getb appended by contents of myfile
+
+
+ cat myfile >> appendfile
+
